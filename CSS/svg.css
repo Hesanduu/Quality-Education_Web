@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #F4F9FD;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 36px;
+}
+
+
+/* SVG Styles */
+svg {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* Node Styling */
+.node {
+    fill: white;
+    stroke: dodgerblue;
+    stroke-width: 2;
+    rx: 25;
+    transition: 0.3s;
+}
+
+.node:hover {
+    fill: #55c360;
+    stroke: #FFD700;
+    cursor: pointer;
+}
+
+.home {
+    fill: #55c360;
+    stroke: dodgerblue;
+    stroke-width: 2;
+}
+
+/* Text Styling */
+text {
+    fill: black;
+    font-size: 16px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+/* Change text color on hover */
+a:hover text {
+    fill: white;
+}
+
+/* Line Styling */
+line {
+    stroke: black;
+    stroke-width: 3;
+}
+

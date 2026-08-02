@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.heading{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.side-bar{
+    background-color: #2baffc1d;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    top:130px;
+    left: 0;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 18px;
+    
+}
+
+.intro-img{
+    width: 800px;
+    border: 5px solid green;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+p{
+    font-size: 1.5rem;
+
+}
+
+.intro-para{
+    margin-left: 100px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-left: 150px;
+}
+
+.point-1-img{
+    width:500px;
+    margin-left: 150px;
+    border: 5px solid green;
+}
+
+.point-1{
+    display: flex;
+}
+.points{
+    margin-left: 50px;
+}
+
+
+.navi{
+    width:100px;
+    margin-left: 100px;
+}
+
+.last-points{
+    margin-left: 900px;
+}
+
+.top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+        
+.top a {
+    padding: 10px 20px; /* Adds padding for button-like feel */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 20px; /* Rounds the corners */
+    font-size: 12px; /* Adjust font size */
+    font-weight: bold; /* Make the text stand out */
+}
+
+.top a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+

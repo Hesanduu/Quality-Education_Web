@@ -1,0 +1,166 @@
+.body{
+    padding-top:500px;
+}
+
+
+#drop-down{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    
+}
+select{
+    color: black;
+    border: 2px solid aqua;
+    padding: 5px;
+}
+
+.programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: #2baffc5e;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    padding-left: 80px;
+    
+    
+}
+
+
+
+.review-main-div{
+    margin-top:150px;
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.recent-reviews{
+    margin-left: 500px;
+}
+.review-cards{
+    display: flex;
+    gap:10px;
+}
+.ratings{
+    margin-left: 180px;
+}
+
+
+.reviews-btn:hover{
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    /* justify-content: end; */
+    margin-left: 600px;
+}
+label{
+    font-weight: bold;
+}
+
+.feed-btn{
+    background-color: #55C360;
+    color: white;
+    padding:10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cancel-btn{
+
+    background-color: #55C360;
+    color: white;
+    padding:10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px
+}
+.cancel-btn:hover{
+    background-color: red;
+}
+
+.feed-btn:hover{
+    background-color: rgb(56, 56, 253);
+}
+
+.reviews-btn{
+    padding: 10px 20px;
+    color: #2BAFFC;
+    border: 1px solid #2BAFFC;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.reviews-btn:hover{
+    background-color: #55C360;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+.head-reaction{
+    display: flex;
+    gap: 70px;
+}
+
+.reactions{
+    display: flex;
+    gap: 15px;
+    margin-top: -20px;
+    margin-left: 180px;
+    padding:10px;
+    border: 3px solid #2BAFFC;
+}
+
+.reaction-faces:hover{
+    background-color: #2BAFFC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.card:hover{
+    background-color: #2baffc9c;
+    color: white;
+    cursor: pointer;
+    .btn{
+        background-color: #55C360;
+        border: 2px solid white;
+    
+}
+    .btn:hover{
+        background-color: #2BAFFC;
+        color: white;
+    }
+}
+
+.card{
+    width: 18rem;
+     border: 5px solid white; 
+     padding: 5px;
+}
+
+.review-card{
+    width: 18rem; border: 3px solid #2BAFFC;
+}
+
+.review-card:hover{
+    background-color:#55b45f ;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.last-btn{
+    margin-left: 250px;
+}

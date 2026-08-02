@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/styles2.css">
+        <link rel="stylesheet" href="CSS/feedback.css">
+        <link rel="icon" type="image/x-icon" href="img/content/pagelogo.png"> 
+        <title>
+            Feedback form
+        </title>
+    </head>
+
+    <body>
+
+        <!-- Header Section -->
+        <header class="hover-header">
+            <div class="header-content">
+                <div class="logo"><a href="homepage.html">
+                    <img src="img/pagelogo.png" alt="Logo"></a>
+                    
+                    <div class="logo-text">QUALITY EDUCATION</div>
+                </div>
+                <nav class="nav-links">
+                    <a href="home.html" >HOME</a>
+                    <a href="profile.html">PROFILE</a>
+                    <a href="table.html">TABLE</a>
+                    <a href="volunteer.html">VOLUNTEER</a>
+                    <a href="sitemap.html">SITEMAP</a>
+                    <a href="team.html">TEAM</a>
+                    <a href="feedback.html" class="active">FEEDBACK</a>
+                    
+                </nav>
+            </div>
+        </header>
+
+        <br><br><br><br>
+
+            <h1 class="feedbackformh1">Feedback form</h1>
+
+            <form>
+                <fieldset>
+                    
+                    <legend class="pdetails">Personal Details</legend>
+
+                    <div class="fspdetails">
+
+                        <label for="fullname">Full Name: </label>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your name here" required><br>
+
+                        <label for="email">Email Address: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email here" required><br>
+
+                        <label for="tel">Telephone Number: </label>
+                        <input type="tel" name="tel" id="tel" size="26" placeholder="Enter your telephone number here" required><br>
+
+                        <label for="address">Address: </label>
+                        <textarea name="address" id="address" rows="2" cols="25" placeholder="Enter your address here" required></textarea><br>
+
+                    </div>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend class="fdetails">Feedback Details</legend>
+
+                    <div class="fsfdetails">
+
+                        <!--popuplist-->
+                        <label for="updates">Would you like to receive our newsletters and updates?</label><br>
+                        <select name="updates" id="updates">
+                            <option value="Yes" selected>Yes</option>
+                            <option value="No">No</option>
+                        </select><br>
+
+                        <!--scrollinglist-->
+                        <label for="type">What type of feedback are you providing?</label><br>
+                        <select name="Type" id="type" multiple size="3">
+                            <option selected>Complaint</option>
+                            <option >Suggestion</option>
+                            <option>Appreciation</option>
+                        </select><br>
+
+                        <!--datalist-->
+                        <label for="via">How would you like us to contact?</label><br>
+                        <input name="Via" list="vias" id="via">
+                        <datalist id="vias">
+                            <option value="email">Email Address</option>
+                            <option value="tel">Telephone Number</option>
+                        </datalist><br>
+
+                        <!--datetimelocal-->
+                        <label for="dob">Submission date:</label>
+                        <input type="datetime-local" id="dob" name="dob" value="2025-03-01T00:00" required>
+                        <input type="submit" name="enter" value="Enter"><br>
+                        
+                        Upload a Screenshot or Document:<br>
+                        <input type="file" id="fileUpload" name="fileUpload" accept=".jpg, .png, .pdf, .docx"><br>
+
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" rows="2" cols="25" maxlength="60" placeholder="Enter your message here" required></textarea><br>
+
+                        <!--emoji review-->
+                        <div class="Emoji Ratings">
+                            Send your rating about us: <br>
+                            <div class="stars">
+                                <div class="emoji">😞</div>
+                                <div class="emoji">😐</div>
+                                <div class="emoji">🙂</div>
+                                <div class="emoji">😁</div>
+                                <div class="emoji">🤩</div>
+                            </div>
+                        </div>
+                        
+
+                        <input class="submit" type="submit" name="submit" value="Submit"><br>
+                    </div>
+                </fieldset>
+
+            </form>
+
+
+        <br><br><br><br>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="img/content/pagelogo.png" alt="Logo" class="footer-logo">
+                    <br><br>
+                    <img src="img/content/sdglogo.png" alt="Logo" class="footer-logo">
+                </div>
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>Website Links</h3>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="sitemap.html">Sitemap</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
+                            <li><a href="content.html">Content</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Student Pages</h3>
+                        <ul>
+                            <li><a href="pageEditor_ST1.html">Student 1</a></li>
+                            <li><a href="pageEditor_ST2.html">Student 2</a></li>
+                            <li><a href="pageEditor_ST3.html">Student 3</a></li>
+                            <li><a href="pageEditor_ST4.html">Student 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Validation Pages</h3>
+                        <ul>
+                            <li><a href="validation_ST1.html">Validation 1</a></li>
+                            <li><a href="validation_ST2.html">Validation 2</a></li>
+                            <li><a href="validation_ST3.html">Validation 3</a></li>
+                            <li><a href="validation_ST4.html">Validation 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Content Pages</h3>
+                        <ul>
+                            <li><a href="content_ST1.html">Content 1</a></li>
+                            <li><a href="content_ST2.html">Content 2</a></li>
+                            <li><a href="content_ST3.html">Content 3</a></li>
+                            <li><a href="content_ST4.html">Content 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © Copyright Group 21 Subgroup D
+            </div>
+        </footer>
+
+
+
+        
+    </body>
+</html>
